@@ -26,7 +26,13 @@ public class DidYouWin {
             pane.add(panel3);
             pane.add(panel4);
             pane.add(panel5);
-            Random gen = new Random();            int blue = gen.nextInt(1);            Color backColor = new Color (blue);            //Panel panel = new Panel();            //panel.setBackground(backColor);            ColorPanel panel = new ColorPanel(backColor);            pane.add(panel);
+            Random gen = new Random();
+            int blue = gen.nextInt(1);
+            Color backColor = new Color (blue);
+            //Panel panel = new Panel();
+            //panel.setBackground(backColor);
+            //ColorPanel panel = new ColorPanel(backColor);
+            pane.add(panel);
             DidYouWin.setVisible(true);
     }
 
